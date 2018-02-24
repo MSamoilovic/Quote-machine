@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Krona+One");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px currentColor;
+    font-family: Krona One;
+    margin: 10% 0 0 0; 
+}
+
+#footer {
+    text-align: center;
+    font-family: Lobster;
+}
