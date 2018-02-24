@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Krona+One");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url();
 
 h1 {
     text-align: center;
@@ -9,12 +10,13 @@ h1 {
     color: white;
 }
 
-#footer {
+.footer {
     text-align: center;
     font-family: Lobster;
     width: 450px;
     display: block;
-    margin : 10px, auto 20px auto;
+    margin : 10%;
+    color: white;
 
 }
 
@@ -73,22 +75,22 @@ body {
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
   margin-top: 30px;
-  opacity: 1;
   cursor: pointer;
 }
-.box .buttons .button:hover {
-  opacity: 0.9;
-}
+
 .box .buttons .button#quote_tw, .box .buttons .button#tmblr_quote {
   float: left;
-  padding: 0px;
-  padding-top: 8px;
+  padding: 7px;
+  padding-top: 0px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.6em;
   margin-right: 5px;
   height: 30px;
   width: 40px;
 }
-.quote-box .buttons .button#new_quote {
+.box .buttons .button#new_quote {
   float: right;
+}
+i {
+    padding: 50%;
 }
