@@ -13,7 +13,7 @@ h1 {
 .footer {
     text-align: center;
     font-family: Lobster;
-    width: 450px;
+    margin-top : 5%;
     display: block;
     color: white;
 
@@ -26,8 +26,8 @@ div {
 
 body {
   background-color: #333;
-  color: #333;
   font-weight: 400;
+  color: #333
 }
 
 .box {
